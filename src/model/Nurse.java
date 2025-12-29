@@ -1,9 +1,5 @@
 package model;
 
-/**
- * Represents a Nurse in the healthcare system.
- * Extends Doctor (as per hierarchy) with nursing-specific behavior.
- */
 public class Nurse extends Doctor {
 
     public Nurse() {}

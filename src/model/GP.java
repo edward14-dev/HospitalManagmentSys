@@ -1,22 +1,15 @@
 package model;
 
-/**
- * Represents a General Practitioner (GP) - primary care doctor.
- * Extends Doctor with primary care focus.
- */
+
 public class GP extends Doctor {
 
     private String primaryArea;  // e.g., "General Medicine", "Family Practice"
 
-    /**
-     * Default constructor
-     */
+
     public GP() {
     }
 
-    /**
-     * Constructor for creating a GP
-     */
+
     public GP(String id, String name, String contact, String qualifications, String primaryArea) {
         super(id, name, contact, "GP", "GP Surgery", qualifications, "General Practice");
         this.primaryArea = primaryArea;

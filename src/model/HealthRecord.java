@@ -1,8 +1,6 @@
 package model;
 
-/**
- * Represents a patient's electronic health record.
- */
+
 public class HealthRecord {
 
     private String recordId;

@@ -3,11 +3,7 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Represents a patient in the healthcare system.
- * Extends Person to inherit common attributes (ID, name, contact).
- * Adds patient-specific details like NHS number, GP surgery, and medical history.
- */
+
 public class Patient extends Person {
 
     private String nhsNumber;        // Unique NHS patient identifier

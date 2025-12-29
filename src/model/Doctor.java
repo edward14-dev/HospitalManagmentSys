@@ -1,24 +1,15 @@
 package model;
 
-/**
- * Abstract class representing any doctor (GP or Specialist).
- * Extends StaffMember to inherit role and workplace.
- * Adds qualifications and specialty.
- */
+
 public abstract class Doctor extends StaffMember {
 
     private String qualifications;
     private String specialty;
 
-    /**
-     * Default constructor
-     */
     public Doctor() {
     }
 
-    /**
-     * Full constructor
-     */
+
     public Doctor(String id, String name, String contact, String role, String workplace,
                   String qualifications, String specialty) {
         super(id, name, contact, role, workplace);
@@ -26,7 +17,7 @@ public abstract class Doctor extends StaffMember {
         this.specialty = specialty;
     }
 
-    // ==================== Getters and Setters ====================
+    //  Getters and Setters
 
     public String getQualifications() {
         return qualifications;
@@ -72,7 +63,7 @@ public abstract class Doctor extends StaffMember {
     }
 
     /**
-     * Initiates a referral using your actual Referral class
+     * Initiates a referral using  the  Referral class
      */
     public void initiateReferral(Referral referral) {
         if (referral != null) {

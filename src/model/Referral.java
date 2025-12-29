@@ -2,9 +2,7 @@ package model;
 
 import java.util.Date;
 
-/**
- * Represents a referral from primary to secondary care.
- */
+
 public class Referral {
 
     private String referralId;

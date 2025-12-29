@@ -1,9 +1,6 @@
 package model;
 
-/**
- * Represents a Specialist Doctor (secondary care).
- * Extends Doctor with specific expertise area.
- */
+
 public class Specialist extends Doctor {
 
     private String expertiseArea;
